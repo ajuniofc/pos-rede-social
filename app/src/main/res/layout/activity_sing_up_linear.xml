@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_screen"
+    tools:context=".SingUPActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/txt_iesb_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iesb_mobile"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+         />
+
+    <TextView
+        android:id="@+id/txt_bem_vindo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/bem_vindo_quebra_linha"
+        android:textSize="35sp"
+        android:gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/edt_nome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="@string/nome_completo"
+        android:inputType="textPersonName"
+        android:text="@string/nome_completo"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edt_nova_senha"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/nova_senha"
+        android:inputType="textPersonName"
+        android:text="@string/nova_senha"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_cidade"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/cidade"
+            android:inputType="textPersonName"
+            android:text="@string/cidade"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edt_estado"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/estado"
+            android:inputType="textPersonName"
+            android:text="@string/estado"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_entrat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_background_btn"
+        android:text="@string/entrar"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_e_aluno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/e_aluno"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:layout_marginEnd="2dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_sing_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sing_in"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginStart="2dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

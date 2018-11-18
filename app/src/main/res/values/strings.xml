@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RedeSocial</string>
+    <string name="iesb_mobile">IESB MOBILE</string>
+    <string name="bem_vindo_quebra_linha">Bem-vindo, \nfaça seu cadastro.</string>
+    <string name="bem_vindo">Bem-vindo, faça seu cadastro.</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="email">Email</string>
+    <string name="nova_senha">Nova senha</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="e_aluno">JÁ É ALUNO?</string>
+    <string name="sing_in">ENTRE AGORA</string>
+</resources>
