@@ -16,7 +16,7 @@ class SplashScreenActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         Handler().postDelayed({
-            startActivity(Intent(this, SingUPActivity::class.java))
+            startActivity(Intent(this, OnBoardActivity::class.java))
         }, seconds)
     }
 }

@@ -11,4 +11,10 @@
     <string name="entrar">ENTRAR</string>
     <string name="e_aluno">JÁ É ALUNO?</string>
     <string name="sing_in">ENTRE AGORA</string>
+    <string name="aprender">Aprender</string>
+    <string name="produzir">Produzir</string>
+    <string name="teoria_pratica">A teoria e a prática juntas!</string>
+    <string name="aprender_descricao">Não importa muito o que ta escrito aqui, o importante é o layout.</string>
+    <string name="produzir_descricao">Continua não importando muito o texto de descrição da tela.</string>
+    <string name="teoria_pratica_descricao">Só pra finalizar mesmo a tela de onBoarding.</string>
 </resources>
