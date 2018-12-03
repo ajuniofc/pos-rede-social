@@ -1,4 +1,4 @@
-package pos.kotlin.com.br.redesocial
+package pos.kotlin.com.br.redesocial.ui.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -8,6 +8,7 @@ import android.view.View
 import pos.kotlin.com.br.onboarding.onboard.engine.OnBoardingButton
 import pos.kotlin.com.br.onboarding.onboard.engine.PaperOnboardingFragment
 import pos.kotlin.com.br.onboarding.onboard.engine.PaperOnboardingPage
+import pos.kotlin.com.br.redesocial.R
 import java.util.ArrayList
 
 class OnBoardActivity : AppCompatActivity() {

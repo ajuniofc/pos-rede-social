@@ -1,9 +1,10 @@
-package pos.kotlin.com.br.redesocial
+package pos.kotlin.com.br.redesocial.ui.activity
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import pos.kotlin.com.br.redesocial.R
 
 class SplashScreenActivity : AppCompatActivity() {
     private val seconds: Long = 3000

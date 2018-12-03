@@ -1,7 +1,8 @@
-package pos.kotlin.com.br.redesocial
+package pos.kotlin.com.br.redesocial.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import pos.kotlin.com.br.redesocial.R
 
 class SingUPActivity : AppCompatActivity() {
 
